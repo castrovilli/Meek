@@ -14,14 +14,22 @@
 		7602DCA318AFBB4200568EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602DCA218AFBB4200568EFA /* main.m */; };
 		7602DCA718AFBB4200568EFA /* MeekAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602DCA618AFBB4200568EFA /* MeekAppDelegate.m */; };
 		7602DCAA18AFBB4200568EFA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7602DCA818AFBB4200568EFA /* Main_iPhone.storyboard */; };
-		7602DCAD18AFBB4200568EFA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7602DCAB18AFBB4200568EFA /* Main_iPad.storyboard */; };
-		7602DCB018AFBB4200568EFA /* MeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602DCAF18AFBB4200568EFA /* MeekViewController.m */; };
 		7602DCB218AFBB4200568EFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7602DCB118AFBB4200568EFA /* Images.xcassets */; };
 		7602DCB918AFBB4200568EFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602DCB818AFBB4200568EFA /* XCTest.framework */; };
 		7602DCBA18AFBB4200568EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602DC9618AFBB4200568EFA /* Foundation.framework */; };
 		7602DCBB18AFBB4200568EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602DC9A18AFBB4200568EFA /* UIKit.framework */; };
 		7602DCC318AFBB4200568EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7602DCC118AFBB4200568EFA /* InfoPlist.strings */; };
 		7602DCC518AFBB4200568EFA /* MeekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7602DCC418AFBB4200568EFA /* MeekTests.m */; };
+		764AE4EE18CA5CAB0030C20A /* MoodCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764AE4ED18CA5CAB0030C20A /* MoodCollectionViewController.m */; };
+		764AE4F118CA7E530030C20A /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764AE4F018CA7E530030C20A /* RecordViewController.m */; };
+		764AF64518C64D8800D902AC /* AddRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764AF64418C64D8800D902AC /* AddRecordViewController.m */; };
+		764AF64818C6912F00D902AC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 764AF64718C6912F00D902AC /* RootViewController.m */; };
+		76E2EE5B18C4359E00FDED71 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE5A18C4359E00FDED71 /* CoreDataTableViewController.m */; };
+		76E2EE5E18C435E300FDED71 /* MeekCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE5D18C435E300FDED71 /* MeekCDTVC.m */; };
+		76E2EE7118C4403C00FDED71 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE6F18C4403C00FDED71 /* Model.xcdatamodeld */; };
+		76E2EE7418C4408800FDED71 /* DreamRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE7318C4408800FDED71 /* DreamRecord.m */; };
+		76E2EE7718C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE7618C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.m */; };
+		76E2EE7E18C5225E00FDED71 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E2EE7D18C5225E00FDED71 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +54,32 @@
 		7602DCA518AFBB4200568EFA /* MeekAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeekAppDelegate.h; sourceTree = "<group>"; };
 		7602DCA618AFBB4200568EFA /* MeekAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeekAppDelegate.m; sourceTree = "<group>"; };
 		7602DCA918AFBB4200568EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		7602DCAC18AFBB4200568EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7602DCAE18AFBB4200568EFA /* MeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeekViewController.h; sourceTree = "<group>"; };
-		7602DCAF18AFBB4200568EFA /* MeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeekViewController.m; sourceTree = "<group>"; };
 		7602DCB118AFBB4200568EFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7602DCB718AFBB4200568EFA /* MeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7602DCB818AFBB4200568EFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7602DCC018AFBB4200568EFA /* MeekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeekTests-Info.plist"; sourceTree = "<group>"; };
 		7602DCC218AFBB4200568EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7602DCC418AFBB4200568EFA /* MeekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeekTests.m; sourceTree = "<group>"; };
+		764AE4EC18CA5CAB0030C20A /* MoodCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodCollectionViewController.h; sourceTree = "<group>"; };
+		764AE4ED18CA5CAB0030C20A /* MoodCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodCollectionViewController.m; sourceTree = "<group>"; };
+		764AE4EF18CA7E530030C20A /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		764AE4F018CA7E530030C20A /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		764AF64318C64D8800D902AC /* AddRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordViewController.h; sourceTree = "<group>"; };
+		764AF64418C64D8800D902AC /* AddRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordViewController.m; sourceTree = "<group>"; };
+		764AF64618C6912F00D902AC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		764AF64718C6912F00D902AC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76E2EE5918C4359E00FDED71 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		76E2EE5A18C4359E00FDED71 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		76E2EE5C18C435E300FDED71 /* MeekCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeekCDTVC.h; sourceTree = "<group>"; };
+		76E2EE5D18C435E300FDED71 /* MeekCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeekCDTVC.m; sourceTree = "<group>"; };
+		76E2EE7018C4403C00FDED71 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		76E2EE7218C4408800FDED71 /* DreamRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DreamRecord.h; sourceTree = "<group>"; };
+		76E2EE7318C4408800FDED71 /* DreamRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DreamRecord.m; sourceTree = "<group>"; };
+		76E2EE7518C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DreamRecord+DreamRecord_Edit.h"; sourceTree = "<group>"; };
+		76E2EE7618C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DreamRecord+DreamRecord_Edit.m"; sourceTree = "<group>"; };
+		76E2EE7818C5014500FDED71 /* DatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseAvailability.h; sourceTree = "<group>"; };
+		76E2EE7C18C5225E00FDED71 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		76E2EE7D18C5225E00FDED71 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +139,13 @@
 		7602DC9C18AFBB4200568EFA /* Meek */ = {
 			isa = PBXGroup;
 			children = (
+				76E2EE5F18C4367900FDED71 /* Model */,
+				7602DCCE18AFBB5900568EFA /* View */,
+				76E2EE5818C4356600FDED71 /* Controller */,
+				7602DC9D18AFBB4200568EFA /* Supporting Files */,
 				7602DCA518AFBB4200568EFA /* MeekAppDelegate.h */,
 				7602DCA618AFBB4200568EFA /* MeekAppDelegate.m */,
-				7602DCA818AFBB4200568EFA /* Main_iPhone.storyboard */,
-				7602DCAB18AFBB4200568EFA /* Main_iPad.storyboard */,
-				7602DCAE18AFBB4200568EFA /* MeekViewController.h */,
-				7602DCAF18AFBB4200568EFA /* MeekViewController.m */,
-				7602DCB118AFBB4200568EFA /* Images.xcassets */,
-				7602DC9D18AFBB4200568EFA /* Supporting Files */,
+				76E2EE7818C5014500FDED71 /* DatabaseAvailability.h */,
 			);
 			path = Meek;
 			sourceTree = "<group>";
@@ -153,6 +177,48 @@
 				7602DCC118AFBB4200568EFA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7602DCCE18AFBB5900568EFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7602DCA818AFBB4200568EFA /* Main_iPhone.storyboard */,
+				7602DCB118AFBB4200568EFA /* Images.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76E2EE5818C4356600FDED71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				764AF64618C6912F00D902AC /* RootViewController.h */,
+				764AF64718C6912F00D902AC /* RootViewController.m */,
+				76E2EE5918C4359E00FDED71 /* CoreDataTableViewController.h */,
+				76E2EE5A18C4359E00FDED71 /* CoreDataTableViewController.m */,
+				76E2EE5C18C435E300FDED71 /* MeekCDTVC.h */,
+				76E2EE5D18C435E300FDED71 /* MeekCDTVC.m */,
+				764AE4EF18CA7E530030C20A /* RecordViewController.h */,
+				764AE4F018CA7E530030C20A /* RecordViewController.m */,
+				76E2EE7C18C5225E00FDED71 /* DetailViewController.h */,
+				76E2EE7D18C5225E00FDED71 /* DetailViewController.m */,
+				764AF64318C64D8800D902AC /* AddRecordViewController.h */,
+				764AF64418C64D8800D902AC /* AddRecordViewController.m */,
+				764AE4EC18CA5CAB0030C20A /* MoodCollectionViewController.h */,
+				764AE4ED18CA5CAB0030C20A /* MoodCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		76E2EE5F18C4367900FDED71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76E2EE6F18C4403C00FDED71 /* Model.xcdatamodeld */,
+				76E2EE7218C4408800FDED71 /* DreamRecord.h */,
+				76E2EE7318C4408800FDED71 /* DreamRecord.m */,
+				76E2EE7518C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.h */,
+				76E2EE7618C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7602DCAD18AFBB4200568EFA /* Main_iPad.storyboard in Resources */,
 				7602DCB218AFBB4200568EFA /* Images.xcassets in Resources */,
 				7602DCAA18AFBB4200568EFA /* Main_iPhone.storyboard in Resources */,
 				7602DCA118AFBB4200568EFA /* InfoPlist.strings in Resources */,
@@ -255,7 +320,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7602DCA718AFBB4200568EFA /* MeekAppDelegate.m in Sources */,
-				7602DCB018AFBB4200568EFA /* MeekViewController.m in Sources */,
+				76E2EE5E18C435E300FDED71 /* MeekCDTVC.m in Sources */,
+				764AE4EE18CA5CAB0030C20A /* MoodCollectionViewController.m in Sources */,
+				764AE4F118CA7E530030C20A /* RecordViewController.m in Sources */,
+				76E2EE7118C4403C00FDED71 /* Model.xcdatamodeld in Sources */,
+				764AF64518C64D8800D902AC /* AddRecordViewController.m in Sources */,
+				764AF64818C6912F00D902AC /* RootViewController.m in Sources */,
+				76E2EE7E18C5225E00FDED71 /* DetailViewController.m in Sources */,
+				76E2EE7718C440BC00FDED71 /* DreamRecord+DreamRecord_Edit.m in Sources */,
+				76E2EE5B18C4359E00FDED71 /* CoreDataTableViewController.m in Sources */,
+				76E2EE7418C4408800FDED71 /* DreamRecord.m in Sources */,
 				7602DCA318AFBB4200568EFA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +367,6 @@
 				7602DCA918AFBB4200568EFA /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7602DCAB18AFBB4200568EFA /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7602DCAC18AFBB4200568EFA /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		7602DCC118AFBB4200568EFA /* InfoPlist.strings */ = {
@@ -397,6 +463,7 @@
 				GCC_PREFIX_HEADER = "Meek/Meek-Prefix.pch";
 				INFOPLIST_FILE = "Meek/Meek-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +477,7 @@
 				GCC_PREFIX_HEADER = "Meek/Meek-Prefix.pch";
 				INFOPLIST_FILE = "Meek/Meek-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +543,7 @@
 				7602DCCA18AFBB4200568EFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7602DCCB18AFBB4200568EFA /* Build configuration list for PBXNativeTarget "MeekTests" */ = {
 			isa = XCConfigurationList;
@@ -483,8 +552,22 @@
 				7602DCCD18AFBB4200568EFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76E2EE6F18C4403C00FDED71 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76E2EE7018C4403C00FDED71 /* Model.xcdatamodel */,
+			);
+			currentVersion = 76E2EE7018C4403C00FDED71 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7602DC8B18AFBB4200568EFA /* Project object */;
 }
